@@ -12,5 +12,11 @@ public struct NowPlayingMedia: Equatable {
     public var artwork: UIImage?
     public var title: String?
     public var artist: String?
+    
+    public init(artwork: UIImage?, title: String?, artist: String?) {
+        self.artwork = artwork
+        self.title = title
+        self.artist = artist
+    }
 }
 #endif
